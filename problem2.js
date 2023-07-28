@@ -33,10 +33,10 @@
 
 // var fruits = ['Apple', 'Banana', 'Orange'];
 // var index = fruits.indexOf('Banana')
-// console.log(index);
-// fruits[1] = 'Mango';
+// fruits[index] = 'Mango';
 // console.log(fruits);
 // fruits.pop()
+// console.log(fruits);
 // fruits.push("watermelon")
 // console.log(fruits);
 
@@ -68,17 +68,45 @@
 // problem 6
 
 
-// let number1 = 13;
-// let number2 = 79;
-// let number3 = 45;
-// if (number1 <= number2) {
-//   console.log("79 is Grade Number")
-// } else if (number2 <= number3) {
-//   console.log("45 is Grade Number")
-// } else {
+// let num1 = 2213;
+// let num2 = 79;
+// let num3 = 225;
+// if (num1 > num2) {
+//   if (num1 > num3) {
+//     console.log(num1)
+//   } else {
 
-//   console.log("13 is grad number")
+//     console.log(num3)
+//   }
+
+// } else {
+//   if (num2 > num3) {
+//     console.log(num2)
+//   }
+//   else {
+
+//     console.log(num3)
+//   }
 // }
 
 
 // problem 7
+
+// let numbers = [33, 32, 44, 53, 52, 13, 53, 33, 24, 2224];
+// for (i = 0; i < numbers.length; i++) {
+//   let number = numbers[i];
+//   console.log(number);
+
+// }
+// problem 8
+
+// var side1 = 9;
+// var side2 = 8;
+// var side3 = 9;
+// if (side1 == side2 || side1 == side3 || side2 == side3) {
+//   console.log('isosceles')
+
+// }
+
+
+
